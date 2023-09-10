@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E9093E80-DEBB-4734-96A2-1C6B6893C266}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp18</RootNamespace>
+    <AssemblyName>WindowsFormsApp18</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="arnold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arnold.Designer.cs">
+      <DependentUpon>arnold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="backextension.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="backextension.Designer.cs">
+      <DependentUpon>backextension.cs</DependentUpon>
+    </Compile>
+    <Compile Include="barbell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="barbell.Designer.cs">
+      <DependentUpon>barbell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="behind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="behind.Designer.cs">
+      <DependentUpon>behind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM.Designer.cs">
+      <DependentUpon>BM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BMI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BMI.Designer.cs">
+      <DependentUpon>BMI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="close.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="close.Designer.cs">
+      <DependentUpon>close.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cost.Designer.cs">
+      <DependentUpon>Cost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="decline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="decline.Designer.cs">
+      <DependentUpon>decline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dumbbell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dumbbell.Designer.cs">
+      <DependentUpon>dumbbell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dumbelcrunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dumbelcrunch.Designer.cs">
+      <DependentUpon>dumbelcrunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ez.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ez.Designer.cs">
+      <DependentUpon>ez.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grammar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grammar.Designer.cs">
+      <DependentUpon>grammar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hammercurl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hammercurl.Designer.cs">
+      <DependentUpon>hammercurl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hanging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hanging.Designer.cs">
+      <DependentUpon>hanging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="leg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="leg.Designer.cs">
+      <DependentUpon>leg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.Designer.cs">
+      <DependentUpon>loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="neckbridge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="neckbridge.Designer.cs">
+      <DependentUpon>neckbridge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="over.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="over.Designer.cs">
+      <DependentUpon>over.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register.Designer.cs">
+      <DependentUpon>register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="search.Designer.cs">
+      <DependentUpon>search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="standing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="standing.Designer.cs">
+      <DependentUpon>standing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tuck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tuck.Designer.cs">
+      <DependentUpon>tuck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userregistar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userregistar.Designer.cs">
+      <DependentUpon>userregistar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="arnold.resx">
+      <DependentUpon>arnold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="backextension.resx">
+      <DependentUpon>backextension.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="barbell.resx">
+      <DependentUpon>barbell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="behind.resx">
+      <DependentUpon>behind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM.resx">
+      <DependentUpon>BM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BMI.resx">
+      <DependentUpon>BMI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="close.resx">
+      <DependentUpon>close.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cost.resx">
+      <DependentUpon>Cost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="decline.resx">
+      <DependentUpon>decline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dumbbell.resx">
+      <DependentUpon>dumbbell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dumbelcrunch.resx">
+      <DependentUpon>dumbelcrunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ez.resx">
+      <DependentUpon>ez.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grammar.resx">
+      <DependentUpon>grammar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hammercurl.resx">
+      <DependentUpon>hammercurl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hanging.resx">
+      <DependentUpon>hanging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="leg.resx">
+      <DependentUpon>leg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading.resx">
+      <DependentUpon>loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="neckbridge.resx">
+      <DependentUpon>neckbridge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="over.resx">
+      <DependentUpon>over.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="register.resx">
+      <DependentUpon>register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search.resx">
+      <DependentUpon>search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="standing.resx">
+      <DependentUpon>standing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tuck.resx">
+      <DependentUpon>tuck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userregistar.resx">
+      <DependentUpon>userregistar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
